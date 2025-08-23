@@ -5,16 +5,16 @@
         "hunt": {
             "enabled": true,
             "cooldown": [
-                15,
-                17
+                18,
+                20
             ],
             "useShortForm": true
         },
         "battle": {
             "enabled": true,
             "cooldown": [
-                15,
-                17
+                18,
+                20
             ],
             "useShortForm": true
         },
@@ -51,7 +51,7 @@
             ]
         },
         "pray": {
-            "enabled": false,
+            "enabled": true,
             "cooldown": [
                 310,
                 400
@@ -65,27 +65,27 @@
                 310,
                 400
             ],
-            "userid": [],
-            "pingUser": false
+            "userid": [1338872472992223282],
+            "pingUser": true
         },
         "lottery": {
             "enabled": false,
             "amount": 1
         },
         "lvlGrind": {
-            "enabled": false,
+            "enabled": true,
             "cooldown": [
-                10,
-                15
+                25,
+                30
             ],
-            "useQuoteInstead": false,
+            "useQuoteInstead": true,
             "minLengthForRandomString": 5,
             "maxLengthForRandomString": 20
         },
         "cookie": {
             "enabled": false,
             "userid": 408785106942164992,
-            "pingUser": true
+            "pingUser": false
         },
         "shop": {
             "enabled": false,
@@ -98,7 +98,7 @@
             ]
         },
         "owo": {
-            "enabled": true,
+            "enabled": false,
             "cooldown": [
                 10,
                 13
@@ -108,14 +108,14 @@
             "enabled": true,
             "cashToSpend": 10000,
             "upgrader": {
-                "enabled": true,
+                "enabled": false,
                 "traits": {
-                    "efficiency": true,
-                    "duration": true,
-                    "cost": true,
-                    "gain": true,
-                    "exp": true,
-                    "radar": true
+                    "efficiency": false,
+                    "duration": false,
+                    "cost": false,
+                    "gain": false,
+                    "exp": false,
+                    "radar": false
                 },
                 "sleeptime": [
                     10,
@@ -133,10 +133,10 @@
         }
     },
     "gamble": {
-        "allottedAmount": 30000,
+        "allottedAmount": 50000,
         "goalSystem": {
-            "enabled": false,
-            "amount": 300
+            "enabled": true,
+            "amount": 250000
         },
         "coinflip": {
             "enabled": false,
@@ -162,7 +162,7 @@
         "blackjack": {}
     },
     "giveawayJoiner": {
-        "enabled": false,
+        "enabled": true,
         "channelsToJoin": [
             1099453684691243098,
             1168797748343099444,
@@ -175,7 +175,7 @@
         "messageRangeToCheck": 6
     },
     "sleep": {
-        "enabled": false,
+        "enabled": true,
         "frequencyPercentage": 50,
         "checkTime": [
             10,
@@ -229,9 +229,9 @@
             "beforeReaddingToQueue": 7
         },
         "reactionBot": {
-            "hunt_and_battle": false,
-            "owo": false,
-            "pray_and_curse": false,
+            "hunt_and_battle": true,
+            "owo": true,
+            "pray_and_curse": true,
             "cooldown": [
                 0.5,
                 1
@@ -241,7 +241,7 @@
     
     "autoUse": {
         "gems": {
-            "enabled": false,
+            "enabled": true,
             "order": {
                 "lowestToHighest": true
             },
@@ -261,7 +261,7 @@
                 "specialGem": false
             }
         },
-        "autoLootbox": false,
-        "autoCrate": false
+        "autoLootbox": true,
+        "autoCrate": true
     }
 }
