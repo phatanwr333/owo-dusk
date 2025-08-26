@@ -175,7 +175,7 @@
         "messageRangeToCheck": 6
     },
     "sleep": {
-        "enabled": true,
+        "enabled": false,
         "frequencyPercentage": 50,
         "checkTime": [
             10,
@@ -210,7 +210,7 @@
             200
         ],
         "shortCooldown": [
-            10,
+            15,
             60
         ],
         "briefCooldown": [
